@@ -1,0 +1,10 @@
+<resources>
+
+    <!--7天天气自定义控件所需值=======开始-->
+    <dimen name="sevenday_each_width">70dp</dimen>
+    <dimen name="sevenday_line">1dp</dimen>
+    <dimen name="sevenday_chart_height">123.33dp</dimen>
+    <dimen name="sevenday_total_height">640dp</dimen>
+    <dimen name="sevenday_totoal_width">504.4dp</dimen>
+    <!--7天天气自定义控件所需值=======结束-->
+</resources>

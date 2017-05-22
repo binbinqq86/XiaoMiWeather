@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sevenday_total_height"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nTextView1000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="今天" />
+
+    <TextView
+        android:id="@+id/nTextView2000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="11/25" />
+
+    <TextView
+        android:id="@+id/nTextView3000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="多云" />
+
+    <ImageView
+        android:id="@+id/img200"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_launcher_round" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sevenday_chart_height" />
+
+    <ImageView
+        android:id="@+id/img100"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/nTextView4000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="多云" />
+
+    <TextView
+        android:id="@+id/nTextView5000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="南风" />
+
+
+    <TextView
+        android:id="@+id/nTextView6000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="3级" />
+
+    <TextView
+        android:id="@+id/nTextView7000"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:background="#aaa234"
+        android:gravity="center"
+        android:text="差"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/nTextView8000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="日出" />
+
+    <TextView
+        android:id="@+id/nTextView9000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="05:24" />
+
+    <TextView
+        android:id="@+id/nTextView10000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="日落" />
+
+    <TextView
+        android:id="@+id/nTextView11000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="19:01" />
+</LinearLayout>
