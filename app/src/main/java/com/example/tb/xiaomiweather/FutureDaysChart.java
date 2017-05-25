@@ -125,7 +125,7 @@ public class FutureDaysChart extends View {
         labelPaint.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,15,getResources().getDisplayMetrics()));
 
         float labelHeight=labelPaint.getFontMetrics().bottom-labelPaint.getFontMetrics().top;
-        padding= labelHeight*2;
+        padding= labelHeight*3f;
 
         chartHeight=TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,CHART_HEIGHT,context.getResources().getDisplayMetrics());
         eachChartHeight=chartHeight/2f-padding;
