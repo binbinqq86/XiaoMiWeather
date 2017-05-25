@@ -28,7 +28,7 @@ public class Weather {
     /**
      * 风力
      */
-    private int windLevel;
+    private String windLevel;
     /**
      * 最高温度
      */
@@ -82,11 +82,11 @@ public class Weather {
         this.wind = wind;
     }
 
-    public int getWindLevel() {
+    public String getWindLevel() {
         return windLevel;
     }
 
-    public void setWindLevel(int windLevel) {
+    public void setWindLevel(String windLevel) {
         this.windLevel = windLevel;
     }
 

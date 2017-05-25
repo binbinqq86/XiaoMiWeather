@@ -3,25 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
     tools:context="com.example.tb.xiaomiweather.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="15天趋势预报"
-        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
+        android:text="15天趋势预报"
         android:textColor="@android:color/black"
-        android:layout_gravity="center_horizontal" />
+        android:textSize="18sp" />
 
     <HorizontalScrollView
-        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <com.example.tb.xiaomiweather.ScrollFutureDaysWeatherView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none"
+        android:layout_weight="1">
+
+        <com.example.tb.xiaomiweather.ScrollFutureDaysWeatherView
+            android:id="@+id/sfdwv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
 </LinearLayout>
